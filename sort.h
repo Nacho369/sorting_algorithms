@@ -23,7 +23,8 @@ typedef struct listint_s
 /* PROTOTYPES */
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
-void swap_list(listint_t *prev_node, listint_t *temp, listint_t *next, listint_t **h);
+void swap_list(listint_t *prev_node, listint_t *temp,
+listint_t *next, listint_t **h);
 void swap_int(int *a, int *b);
 void divide(int beg, int pivot, int *i, size_t size);
 int partition(int beg, int pivot, int *i, size_t size);
