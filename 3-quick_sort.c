@@ -16,6 +16,8 @@ void quick_sort(int *array, size_t size)
 		divide(beg, pivot, array, size);
 	}
 }
+
+
 /**
 * divide - recursively partition
 * @beg: beginning of divided array
@@ -38,6 +40,8 @@ void divide(int beg, int pivot, int *i, size_t size)
 		divide(second, pivot, i, size);
 	}
 }
+
+
 /**
 * partition - divides an array
 * @beg: beginning of array separated
@@ -77,6 +81,7 @@ int partition(int beg, int pivot, int *i, size_t size)
 	}
 	return (beg);
 }
+
 
 /**
   * swap_int - swaps the values of two integers
