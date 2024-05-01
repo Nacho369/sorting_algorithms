@@ -29,7 +29,7 @@ void swap_int(int *a, int *b);
 void divide(int beg, int pivot, int *i, size_t size);
 int partition(int beg, int pivot, int *i, size_t size);
 void swap_int(int *a, int *b);
-void swapme(listint_t *current, listint_t *current_old, listint_t **list)
+void swapme(listint_t *current, listint_t *current_old, listint_t **list);
 
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
